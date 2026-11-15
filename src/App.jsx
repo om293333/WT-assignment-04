@@ -54,7 +54,7 @@ function App() {
 
   return (
     <main className="app-shell">
-      <header className="topbar"><div className="brand"><span className="brand-mark">V</span><span>VIT<span className="brand-accent">.</span>RESULTS</span></div><div className="semester-tag">SEMESTER 04 <span>2024-25</span></div></header>
+      <header className="topbar"><div className="brand"><span className="brand-mark">V</span><span>VIT<span className="brand-accent">.</span>RESULTS</span></div><div className="student-identity"><strong>Vaibhav Murde</strong><span>Roll No. 31</span></div><div className="semester-tag">SEMESTER 04 <span>2024-25</span></div></header>
       <div className="content-wrap">
         <section className="intro"><div><p className="eyebrow">Academic performance desk</p><h1>Build your <em>semester</em> result.</h1><p className="intro-copy">Enter internal and end-semester marks to get a clean, instant scorecard.</p></div><div className="intro-note"><span>01</span><p>Four subjects<br />One clear result</p></div></section>
         <form onSubmit={calculateResult} noValidate>
